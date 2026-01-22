@@ -71,7 +71,7 @@ Rezultat: JSON sa sažetkom DEMO tablice (n_rows, n_countries, min_year, max_yea
 GET /aggregate/by-year
 Primjer:
 http://127.0.0.1:8000/aggregate/by-year
-Rezultat: lista godina gdje za svaku godinu dobiješ prosjeke (EU prosjek): avg_hpi, avg_wage, avg_price_to_income. To radi GROUP BY year nad svim državama, pa se dobije EU agregaciju.
+Rezultat: lista godina gdje za svaku godinu se dobije prosjek (EU prosjek): avg_hpi, avg_wage, avg_price_to_income. To radi GROUP BY year nad svim državama, pa se dobije EU agregaciju.
 
 GET /aggregate/rank
 Primjer 1:
