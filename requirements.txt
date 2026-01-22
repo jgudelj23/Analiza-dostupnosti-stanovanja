@@ -1,0 +1,7 @@
+pandas
+requests
+sqlalchemy
+fastapi
+uvicorn
+matplotlib
+notebook
