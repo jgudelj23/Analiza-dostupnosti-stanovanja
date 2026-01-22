@@ -1,6 +1,8 @@
 Pri pokretanju potrebno je aktivirati virtualno okruženje sa: .\.venv\Scripts\Activate.ps1
 Requirements.txt je tu da bi se instalirali svi potrebni paketi za run-anje programa (py -m pip install -r requirements.txt)
-Potrebno je pokrenuti ETL (py -m scripts.run_etl) i na kraju pokrenuti API (uvicorn src.api:app --reload --port 8000) treba paziti da se nalazite u pravom direktoriju
+Potrebno je pokrenuti ETL (py -m scripts.run_etl) 
+i na kraju pokrenuti API (uvicorn src.api:app --reload --port 8000) treba paziti da se nalazite u pravom direktoriju (307 Temporary Redirect jer se automatski redirecta na http://127.0.0.1:8000/docs
+)
 Može se kliknuti na link u terminalu kad se pokrene API ili ručno unijeti na preglednik za pokretanje Swagger UI: http://127.0.0.1:8000/docs
 
 
